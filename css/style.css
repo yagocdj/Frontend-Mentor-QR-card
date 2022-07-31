@@ -2,29 +2,31 @@ body {
   background-color: hsl(212deg, 45%, 89%);
   font: 15px "Outfit", sans-serif;
 }
-body .container {
+
+.container {
   display: flex;
   place-content: center;
   place-items: center;
   padding: 1em;
 }
-body .qr-card {
+.container .qr-card {
   background-color: hsl(0deg, 0%, 100%);
   /* min-width: 329px; */
   width: 329px;
 }
-body .card-heading {
+.container .card-heading {
   font-weight: 700;
   color: hsl(218deg, 44%, 22%);
-  padding: 1em;
+  padding: 0.5em 1em;
   margin: 0;
   text-align: center;
 }
-body .paragraph-two {
+.container .paragraph {
   font-weight: 400;
   color: hsl(220deg, 15%, 55%);
+  text-align: center;
 }
-body img {
+.container img {
   display: block;
   margin-left: auto;
   margin-right: auto;
