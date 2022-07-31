@@ -1,0 +1,41 @@
+$body-bg-color:  hsl(212, 45%, 89%);
+$p1-txt-color: hsl(218, 44%, 22%);
+$p2-txt-color: hsl(220, 15%, 55%);
+$card-color: hsl(0, 0%, 100%);
+$txt-font: 'Outfit', sans-serif;
+
+body {
+    background-color: $body-bg-color;
+    font: 15px $txt-font;
+    padding: 1em;
+
+    .container {
+        display: flex;
+    }
+
+    .qr-card {
+        background-color: $card-color;
+        /* min-width: 329px; */
+        width: 329px;
+    }
+
+    .card-heading {
+        font-weight: 700;
+        color: $p1-txt-color;
+        padding: 1em;
+        margin: 0;
+        text-align: center;
+    }
+
+    .paragraph-two {
+        font-weight: 400;
+        color: $p2-txt-color;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+}
