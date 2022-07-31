@@ -1,10 +1,12 @@
 body {
   background-color: hsl(212deg, 45%, 89%);
   font: 15px "Outfit", sans-serif;
-  padding: 1em;
 }
 body .container {
   display: flex;
+  place-content: center;
+  place-items: center;
+  padding: 1em;
 }
 body .qr-card {
   background-color: hsl(0deg, 0%, 100%);

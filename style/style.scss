@@ -7,10 +7,12 @@ $txt-font: 'Outfit', sans-serif;
 body {
     background-color: $body-bg-color;
     font: 15px $txt-font;
-    padding: 1em;
 
     .container {
         display: flex;
+        place-content: center;
+        place-items: center;
+        padding: 1em;
     }
 
     .qr-card {
