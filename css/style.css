@@ -15,7 +15,7 @@ body {
   width: 329px;
   height: 510px;
   border-radius: 20px;
-  /* box-shadow: ; */
+  box-shadow: 0px 0px 50px 6px hsl(212deg, 45%, 82%);
 }
 .container .card-heading {
   font-weight: 700;
