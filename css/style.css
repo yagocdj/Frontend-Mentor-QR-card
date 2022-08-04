@@ -13,7 +13,8 @@ body {
   background-color: hsl(0deg, 0%, 100%);
   /* min-width: 329px; */
   width: 329px;
-  height: 490px;
+  height: 505px;
+  border-radius: 20px;
 }
 .container .card-heading {
   font-weight: 700;
@@ -25,12 +26,13 @@ body {
 .container .paragraph {
   font-weight: 400;
   color: hsl(220deg, 15%, 55%);
+  margin-top: 0.4em;
   text-align: center;
   padding: 0 2.5em;
 }
 .container img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 1em auto 1em auto;
   width: 90%;
+  border-radius: 10px;
 }
