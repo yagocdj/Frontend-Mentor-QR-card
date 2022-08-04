@@ -4,6 +4,7 @@ body {
 }
 
 .container {
+  margin-top: 5em;
   display: flex;
   place-content: center;
   place-items: center;
@@ -11,10 +12,10 @@ body {
 }
 .container .qr-card {
   background-color: hsl(0deg, 0%, 100%);
-  /* min-width: 329px; */
   width: 329px;
-  height: 505px;
+  height: 510px;
   border-radius: 20px;
+  /* box-shadow: ; */
 }
 .container .card-heading {
   font-weight: 700;
@@ -35,4 +36,8 @@ body {
   margin: 1em auto 1em auto;
   width: 90%;
   border-radius: 10px;
+}
+
+footer {
+  margin: 2.5em 0 0 0;
 }
